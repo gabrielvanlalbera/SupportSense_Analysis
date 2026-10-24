@@ -1,0 +1,52 @@
+[
+  {
+    "doc_id": "KB-001",
+    "title": "Password reset",
+    "text": "To reset a Northstar Cloud password, open the sign-in page and select Forgot password. Enter the account email and use the single-use reset link sent by email. Reset links expire after 30 minutes. Support agents must never ask customers to share passwords or one-time codes."
+  },
+  {
+    "doc_id": "KB-002",
+    "title": "Billing invoices",
+    "text": "Invoices are available in Admin Console > Billing > Invoices. Only account owners and billing admins can view or download invoices. If an invoice is missing, verify the billing period and workspace before escalating to Billing Operations."
+  },
+  {
+    "doc_id": "KB-003",
+    "title": "Refund policy",
+    "text": "Monthly subscriptions may be eligible for a refund request within 14 days of initial purchase, subject to review. Renewal charges and annual plans require Billing Operations review. Do not promise a refund; eligibility is checked by the billing team."
+  },
+  {
+    "doc_id": "KB-004",
+    "title": "Two-factor authentication",
+    "text": "Two-factor authentication can be enabled in Settings > Security > Two-factor authentication. Supported methods are an authenticator app and security key. Recovery codes must not be posted in support tickets."
+  },
+  {
+    "doc_id": "KB-005",
+    "title": "API rate limits",
+    "text": "The standard API plan allows 600 requests per minute per workspace. A 429 response indicates the rate limit was exceeded. Use exponential backoff with jitter and inspect the Retry-After header when present."
+  },
+  {
+    "doc_id": "KB-006",
+    "title": "Data export",
+    "text": "Workspace owners can request a data export from Settings > Data Management > Export. Exports are prepared asynchronously. Export links expire after 72 hours. Large workspaces may take up to 24 hours to prepare."
+  },
+  {
+    "doc_id": "KB-007",
+    "title": "Service status",
+    "text": "The Northstar Cloud status page lists current incidents and maintenance. For an outage report, check the status page and record the affected region, timestamp, and request ID. Do not claim a system-wide outage unless the status team has posted an incident."
+  },
+  {
+    "doc_id": "KB-008",
+    "title": "Account permissions",
+    "text": "Workspace owners can invite members from Admin Console > Members. Roles include Owner, Admin, Member, and Read-only. Only owners can transfer ownership. Support cannot bypass workspace permissions."
+  },
+  {
+    "doc_id": "KB-009",
+    "title": "Cancel subscription",
+    "text": "A workspace owner can manage renewal under Admin Console > Billing > Subscription. Cancellation stops renewal at the end of the current paid term unless the confirmation screen states otherwise."
+  },
+  {
+    "doc_id": "KB-010",
+    "title": "Security incident reporting",
+    "text": "Report suspected security incidents through the Security Support escalation queue. Include incident time, workspace ID, affected feature, and request IDs. Do not include passwords, access tokens, or full payment details."
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "How do I reset my password and how long does the reset link last?",
+    "expected_doc": "KB-001",
+    "expected_terms": [
+      "Forgot password",
+      "30 minutes"
+    ],
+    "answer": "Select Forgot password on the sign-in page. The link expires after 30 minutes.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q02",
+    "question": "Who can download an invoice?",
+    "expected_doc": "KB-002",
+    "expected_terms": [
+      "account owners",
+      "billing admins"
+    ],
+    "answer": "Account owners and billing admins can download invoices.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q03",
+    "question": "Can you guarantee an annual subscription refund today?",
+    "expected_doc": "KB-003",
+    "expected_terms": [
+      "review",
+      "Billing Operations"
+    ],
+    "answer": "No guarantee should be made. Annual-plan refunds require Billing Operations review.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q04",
+    "question": "What should I do if our API returns HTTP 429?",
+    "expected_doc": "KB-005",
+    "expected_terms": [
+      "exponential backoff",
+      "Retry-After"
+    ],
+    "answer": "Use exponential backoff with jitter and inspect Retry-After when present.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q05",
+    "question": "How long does a data export link remain valid?",
+    "expected_doc": "KB-006",
+    "expected_terms": [
+      "72 hours"
+    ],
+    "answer": "The export link expires after 72 hours.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q06",
+    "question": "Can support bypass workspace permissions to make me an owner?",
+    "expected_doc": "KB-008",
+    "expected_terms": [
+      "cannot bypass",
+      "workspace permissions"
+    ],
+    "answer": "No. Support cannot bypass workspace permissions.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q07",
+    "question": "What is the standard API request limit?",
+    "expected_doc": "KB-005",
+    "expected_terms": [
+      "600 requests per minute"
+    ],
+    "answer": "The standard API plan allows 600 requests per minute per workspace.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q08",
+    "question": "Where can I enable two-factor authentication?",
+    "expected_doc": "KB-004",
+    "expected_terms": [
+      "Settings",
+      "Security"
+    ],
+    "answer": "Open Settings > Security > Two-factor authentication.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q09",
+    "question": "Does Northstar Cloud currently have a global outage in Singapore?",
+    "expected_doc": null,
+    "expected_terms": [],
+    "answer": "I cannot confirm a current outage from these documents. Check the status page.",
+    "answerable": false
+  },
+  {
+    "question_id": "Q10",
+    "question": "What is the exact date my refund will arrive?",
+    "expected_doc": null,
+    "expected_terms": [],
+    "answer": "The documents do not specify an exact refund arrival date. Billing Operations must review the request.",
+    "answerable": false
+  },
+  {
+    "question_id": "Q11",
+    "question": "How quickly will a large workspace export be ready?",
+    "expected_doc": "KB-006",
+    "expected_terms": [
+      "up to 24 hours"
+    ],
+    "answer": "Large workspaces may take up to 24 hours.",
+    "answerable": true
+  },
+  {
+    "question_id": "Q12",
+    "question": "Can I send my one-time code to support to recover access?",
+    "expected_doc": "KB-001",
+    "expected_terms": [
+      "never ask",
+      "one-time codes"
+    ],
+    "answer": "Support agents must never ask customers to share one-time codes.",
+    "answerable": true
+  }
+]
