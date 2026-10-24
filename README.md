@@ -6,6 +6,18 @@ SupportSense is a portfolio project for **Northstar Cloud**, a fictional B2B Saa
 
 > **Transparency:** the company and documents are fictional. The default version works without an API key and uses extractive answers. This is not a live customer experiment and does not establish real-world business impact.
 
+## Notebook walkthrough
+
+The project is organized as a five-notebook portfolio walkthrough:
+
+1. **[Exploratory Analysis](notebooks/1.%20SupportSense%20-%20Exploratory%20Analysis.ipynb)** — inspect the synthetic knowledge base and evaluation questions.
+2. **[Document Retrieval](notebooks/2.%20SupportSense%20-%20Document%20Retrieval.ipynb)** — inspect TF-IDF retrieval and top-k hit rates.
+3. **[RAG Assistant](notebooks/3.%20SupportSense%20-%20RAG%20Assistant.ipynb)** — examine grounded answers, citations, and abstention.
+4. **[A/B Experiment](notebooks/4.%20SupportSense%20-%20A-B%20Experiment.ipynb)** — run an offline paired benchmark of baseline and RAG behaviour.
+5. **[Business Impact & Validation](notebooks/5.%20SupportSense%20-%20Business%20Impact%20%26%20Validation.ipynb)** — compare metrics, quantify uncertainty descriptively, and explore a clearly labelled business scenario.
+
+Run from the repository root after installing `requirements.txt`. The notebooks use the included synthetic data. The default RAG mode uses deterministic extractive fallback; an LLM is optional. The offline benchmark is not a live randomized A/B test, and scenario calculations are assumptions rather than measured savings.
+
 ## Business problem
 Support agents spend time finding answers across help articles. A grounded assistant could reduce search effort, but it must improve answer usefulness without increasing unsupported claims.
 
